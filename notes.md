@@ -15,3 +15,7 @@
 * method, names follow local varialbes rule, so it blend into texture of program. In some context you can't differentiate if it is a local variable or method name
 * `100.to_i`, this is sending message `to_i` to integer 100, or method `to_i` is called by integer 100. subtle differences between the two, messages sent to an object, object might not have the matching method to deal with it
 * method can take argument, which itself also an object
+* method call might have no explicit object, then it is `self`. Identify of `self` depend on the context
+* `Classes` define clusters of behavior or functionality, every object is an instance of exactly one class
+* Class < Object. Class launch an object, but the object can acquire methods and behaviors later on
+
