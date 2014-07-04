@@ -1,5 +1,4 @@
 # Chapter 1
-
 * `irb --simple-prompt` cleaner irb session
 * `puts` add a newline
 * `print` doesn't
