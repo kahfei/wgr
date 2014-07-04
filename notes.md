@@ -18,3 +18,14 @@
 * `puts "Hello"`, `puts` is the message, with "hello" as the argument, object is not explicit, it is self.
 * Classes define clusters of behavior or functionality. Every object is an instance of exactly one class. 
 * object > class, class launch an object, object can acquire new method and behavior.  
+=======
+* method call might have no explicit object, then it is `self`. Identify of `self` depend on the context
+* `Classes` define clusters of behavior or functionality, every object is an instance of exactly one class
+* Class < Object. Class launch an object, but the object can acquire methods and behaviors later on
+* `ruby -cw c2f.rb` check syntax of the script
+* `to_i` convert to integer
+* `gets` get a line of keyboard input
+* `File.read("file.txt")` read file
+* `fh = File.new("file.txt","w")`, open file, set mode to `w`rite
+* `fh.puts "something"`, write to fh
+* `fh.close`, close the connection
