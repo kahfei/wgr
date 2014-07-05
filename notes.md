@@ -28,3 +28,5 @@
 * `fh = File.new("file.txt","w")`, open file, set mode to `w`rite
 * `fh.puts "something"`, write to fh
 * `fh.close`, close the connection
+* things load into program normally called library. feature rarely used, often associate with with `require`, extension often means ruby extensions written in C.
+* `ruby -e "puts $:"`, display load path. Last directory to look for is the current directory
