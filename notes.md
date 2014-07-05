@@ -38,3 +38,7 @@
 ** `-w`, turn on warning
 ** `-e`, execute ruby code followed in quotation mark
 * `-v` vs `--version`, `-v` verbose mode, will run script in verbose mode and also show version, `--version` just show version
+* `-ve` often use to show code in a particular version
+* irb always print out values of an assignment expression, which is the righthand side. To turn that off, `irb --noecho
+* `ri` and `rdoc` ruby documentation
+* `rake`, ruby make. read and execute tasks defined in Rakefile`
