@@ -32,3 +32,9 @@
 * `ruby -e "puts $:"`, display load path. Last directory to look for is the current directory
 * `load` will just load a file that you ask for, even it already been loaded. 
 * `require` will not reload file already loaded
+* to load file, full filename with extension, require file doesn't need extension, with that, you treat extensions written in C or ruby the same way.
+* some useful ruby command switch,
+** `-c`, check for syntax errors
+** `-w`, turn on warning
+** `-e`, execute ruby code followed in quotation mark
+* `-v` vs `--version`, `-v` verbose mode, will run script in verbose mode and also show version, `--version` just show version
