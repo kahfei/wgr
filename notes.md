@@ -30,3 +30,5 @@
 * `fh.close`, close the connection
 * things load into program normally called library. feature rarely used, often associate with with `require`, extension often means ruby extensions written in C.
 * `ruby -e "puts $:"`, display load path. Last directory to look for is the current directory
+* `load` will just load a file that you ask for, even it already been loaded. 
+* `require` will not reload file already loaded
