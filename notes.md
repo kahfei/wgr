@@ -42,3 +42,5 @@
 * irb always print out values of an assignment expression, which is the righthand side. To turn that off, `irb --noecho
 * `ri` and `rdoc` ruby documentation
 * `rake`, ruby make. read and execute tasks defined in Rakefile`
+* `rake --tasks`, show all defined tasks
+* in irb, `gem "hoe", "<1.8.2"`, to specify older version of the particular gem as default

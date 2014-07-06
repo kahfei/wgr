@@ -1,6 +1,10 @@
 namespace :admin do 
   desc "delete all files end with ~"
   task :clean_tmp do
-    Dir["pwd/*"].delete_if {|f| f.end_with?('~') }
+    Dir["./*"].each {|f|if f.end_with?('~'); File.unlink(f) end }
+  end
+  
+  task :show_tmp do
+    Dir["./*"].each {|f| puts f if f.end_with?('~')}
   end
 end
