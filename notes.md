@@ -44,3 +44,5 @@
 * `rake`, ruby make. read and execute tasks defined in Rakefile`
 * `rake --tasks`, show all defined tasks
 * in irb, `gem "hoe", "<1.8.2"`, to specify older version of the particular gem as default
+* Chapter 2
+* object is the handle on the universe of your program. 
