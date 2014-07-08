@@ -47,3 +47,5 @@
 # Chapter 2
 * object is the handle on the universe of your program. 
 * in method definition - parameters, in method call - arguments
+* every method call is an expression, and has return value, the same as the value of the last expression evaluated during execution of the mehod. 
+* return is optional, but necessary for returning multiple values, unless it is explicit array like `[a,b,c]`
