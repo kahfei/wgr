@@ -58,3 +58,5 @@
 * `Object.new.object_id`, unique id for object. 
 * `a = 100; b = a`, both a and b having same object_id
 * `a = "what"' b = "what", a and b having different object_id`
+* another innate method, `respond_to?`, check if object know how to handle message being sent. 
+* example of introspection or reflection
