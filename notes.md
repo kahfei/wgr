@@ -46,6 +46,7 @@
 * in irb, `gem "hoe", "<1.8.2"`, to specify older version of the particular gem as default
 # Chapter 2
 * object is the handle on the universe of your program. 
+* always asking object to do thing and tell you thing
 * in method definition - parameters, in method call - arguments
 * every method call is an expression, and has return value, the same as the value of the last expression evaluated during execution of the mehod. 
 * return is optional, but necessary for returning multiple values, unless it is explicit array like `[a,b,c]`
