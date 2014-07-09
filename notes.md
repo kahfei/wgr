@@ -51,3 +51,10 @@
 * every method call is an expression, and has return value, the same as the value of the last expression evaluated during execution of the mehod. 
 * return is optional, but necessary for returning multiple values, unless it is explicit array like `[a,b,c]`
 * even call to empty method will return nil
+* string interpolation `#{something}`
+* every object is true, except false and nil
+* note, 0 is actually true
+* object have innate methods once it is created, `Object.new.methods`
+* `Object.new.object_id`, unique id for object. 
+* `a = 100; b = a`, both a and b having same object_id
+* `a = "what"' b = "what", a and b having different object_id`
